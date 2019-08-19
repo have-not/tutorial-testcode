@@ -16,7 +16,7 @@
 ## 6d
     １から６の数値をランダムで返す関数
 
-## 30daysafter
+## 30dayslater
     ３０日後の年月日を文字列（yyyy/MM/dd）で返す関数
 
 ## fizzbuzz
