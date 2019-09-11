@@ -1,8 +1,13 @@
-def add(x: int, y: int) -> int:
-    if type(x) is int and type(y) is int:
-        return x + y
+def mydivmod(x: int, y: int) -> int:
+    if y != 0:
+        q = x // y
+        mod = x % y
+        return (q, mod)
     else:
-        raise MyException
+        return (0, 0)
 
-class MyException(Exception):
-    pass
+def mydivmod2(x: int, y: int) -> int:
+    try:
+        return divmod(x, y)
+    except ZeroDivisionError:
+        return (0, 0)
