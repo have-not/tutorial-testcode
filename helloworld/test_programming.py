@@ -5,7 +5,7 @@ import programming as pg
 class TestHelloWorld(unittest.TestCase):
 
     def test_helloworld(self):
-        self.assertEqual('HelloWorld!', pg.helloworld())
+        self.assertEqual(pg.helloworld(), 'HelloWorld!')
 
 
 if __name__ == '__main__':
