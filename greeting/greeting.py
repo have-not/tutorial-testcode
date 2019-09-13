@@ -1,4 +1,4 @@
-def getGreetMsg(time=0):
+def get_greet_msg(time=0):
     if 6 < time and time < 10:
         return "good morning!"
     if time < 0 or 23 < time:

@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 
-def getNowDatetime():
+def now_datetime():
     return datetime.now()
 
-def thirtyDaysLater(dt):
+def thirty_days_later(dt):
     return (dt + timedelta(days=30)).strftime(r"%Y/%m/%d")
